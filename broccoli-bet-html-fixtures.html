@@ -1,0 +1,104 @@
+<style>
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+    }
+    .fixture {
+        border: 1px solid white;
+        color: red;
+        width: 15em;
+        margin: 0.5em;
+        padding: 0.2em;
+        background-color: grey;
+    }
+    .fixture-head {
+        text-decoration: underline;
+       
+    }
+    .fixture-date {
+        padding-left: 0.5em;
+        padding-right: 0.1em;
+        color: yellow;
+    }
+    .fixture-time {
+        color: orange;
+    }
+    .teams {
+        height: 5em;
+    }
+    .teams-home {
+        float: left;
+        padding: 0.1em;
+    }
+    .teams-away {
+        float: right;
+        padding: 0.1em;
+    }
+    .scores-home {
+        font-size: 2em;
+    }
+    .scores-away {
+        font-size: 2em;
+    }
+    </style>
+    
+    <div class="flex-container">
+    
+    <div class="fixture">
+        <span class="fixture-head">Game A</span>
+        <span class="fixture-date">16/12/2021</span>
+        <span class="fixture-time">17:30</span>
+        
+        <div class="teams">
+        
+            <div class="teams-home">Home
+                <div class=scores-home>2</div>
+            </div>
+    
+            <div class="teams-away">Away
+                <div class=scores-away>2</div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="fixture">
+        <span class="fixture-head">Game B</span>
+        <span class="fixture-date">16/12/2021</span>
+        <span class="fixture-time">15:00</span>
+    
+        <div class="teams">
+        
+            <div class="teams-home">Home
+                <div class=scores-home>3</div>
+            </div>
+    
+            <div class="teams-away">Away
+                <div class=scores-away>1</div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="fixture">
+        <span class="fixture-head">Game C</span>
+        <span class="fixture-date">18/12/2021</span>
+        <span class="fixture-time">12:30</span>
+        
+        <div class="teams">
+        
+            <div class="teams-home">Home
+                <div class=scores-home>0</div>
+            </div>
+    
+            <div class="teams-away">Away
+                <div class=scores-away>2</div>
+            </div>
+        
+        </div>
+    </div>
+    
+    </div>
